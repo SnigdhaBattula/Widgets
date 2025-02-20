@@ -4,10 +4,10 @@ define("DS/GetInTouch/scripts/ContactForm", [], function () {
     var myWidget = {
         onLoad: function () {
             var formHTML = `
-                <div class='main-Container' id='mainContainer' style="width: 400px; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); text-align: center;">
-                    <h2 style="color:rgb(53, 54, 55);">Get In Touch</h2>
+                <div class='main-Container' id='mainContainer' style="width: 400px; padding: 20px; background:rgb(119, 152, 242); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); text-align: center;">
+                    <h2 style="color:rgb(15, 95, 175);">Get In Touch</h2>
                     <form id="contactForm">
-                        <input type="text" placeholder="First Name" style="width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;" required>
+                        <input type="text" placeholder="First Name" style="width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc;background:rgb(235, 242, 200); border-radius: 5px;" required>
                         <input type="text" placeholder="Last Name" style="width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;" required>
                         <input type="email" placeholder="Email" style="width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;" required>
                         <input type="tel" placeholder="Phone" style="width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;" required>
