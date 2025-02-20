@@ -1,11 +1,11 @@
-define("DS/GETINTOUCH/scripts/ContactForm", [], function () {
+define("DS/GetInTouch/scripts/ContactForm", [], function () {
     'use strict';
 
     var myWidget = {
         onLoad: function () {
             var formHTML = `
                 <div class='main-Container' id='mainContainer' style="width: 400px; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); text-align: center;">
-                    <h2 style="color: #1e3a8a;">Get In Touch</h2>
+                    <h2 style="color:rgb(53, 54, 55);">Get In Touch</h2>
                     <form id="contactForm">
                         <input type="text" placeholder="First Name" style="width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;" required>
                         <input type="text" placeholder="Last Name" style="width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;" required>
